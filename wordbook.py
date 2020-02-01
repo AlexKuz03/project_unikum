@@ -6,7 +6,7 @@ def create_wordbook(word, length_wb):
         word = list(filter(lambda x: x != wordbook[0][i], l))
     return wordbook
 
-l = ['s', 'd', 'asas', 'a', 'a', 'asas']
-length_wb = int(input('input length of the wordbook:'))
-print(create_wordbook(l, length_wb))
+w = ['s', 'd', 'bb', 'a', 'a', 'bb']
+length_wb = int(input('input the length of the wordbook:'))
+print(create_wordbook(w, length_wb))
 
